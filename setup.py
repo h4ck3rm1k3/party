@@ -30,7 +30,7 @@ for dep in info.get('depends', []):
 requires.append('trytond >= %s.%s.dev0, < %s.%s.dev0' %
     (major_version, minor_version, major_version, minor_version + 1))
 
-setup(name='trytond_party',
+setup(name='tryton_party',
     version=info.get('version', '0.0.1'),
     description='Tryton module with parties and addresses',
     long_description=read('README'),
